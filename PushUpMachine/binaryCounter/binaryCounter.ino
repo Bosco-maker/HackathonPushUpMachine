@@ -1,7 +1,7 @@
 const int buttonPin = 7;               // Button on digital pin 7
 const int ledPins[4] = {1, 2, 3, 4};   // LED pins
 int counter = 0;                        // Number to display (0-15)
-bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb       // Debounce timer
+       // Debounce timer
 
 void setup() {
     for (int i = 0; i < 4; i++) {
